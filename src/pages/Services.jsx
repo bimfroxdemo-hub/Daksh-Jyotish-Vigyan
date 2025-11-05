@@ -12,15 +12,15 @@ import {
 } from "react-icons/fa";
 import { useLanguage } from "../context/LanguageContext";
 
-// 🧿 Import individual service images
-import kundaliImg from "../../public/Astro/kundali.png";
-import vastuImg from "../../public/Astro/vastu.png";
-import marriageImg from "../../public/Astro/vivah.png";
-import careerImg from "../../public/Astro/business.png";
-import gemstoneImg from "../../public/Astro/stone.png";
-import muhuratImg from "../../public/Astro/muhurat.png";
-import numerologyImg from "../../public/Astro/number.png";
-import remediesImg from "../../public/Astro/om.png";
+
+import kundaliImg from "/public/Astro/kundali.png";
+import vastuImg from "/public/Astro/vastu.png";
+import marriageImg from "/public/Astro/vivah.png";
+import careerImg from "/public/Astro/business.png";
+import gemstoneImg from "/public/Astro/stone.png";
+import muhuratImg from "/public/Astro/muhurat.png";
+import numerologyImg from "/public/Astro/number.png";
+import remediesImg from "/public/Astro/om.png";
 
 const Services = () => {
   const { language } = useLanguage();

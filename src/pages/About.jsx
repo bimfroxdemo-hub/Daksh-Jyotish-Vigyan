@@ -9,7 +9,7 @@ import {
   FaChevronRight,
   FaAward,
 } from "react-icons/fa";
-import acharyaHero from "../../public/Astro/Maharajji.jpg";
+import acharyaHero from "/public/Astro/Maharajji.jpg";
 import { useLanguage } from "../context/LanguageContext";
 
 const About = () => {
