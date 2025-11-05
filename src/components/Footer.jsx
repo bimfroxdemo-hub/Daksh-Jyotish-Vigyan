@@ -169,7 +169,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-[#f8d57e]/30 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-[#e7c6a1] space-y-4 md:space-y-0">
           <p className="text-center md:text-left">
-            © 2025 <span className="text-[#f8d57e]">Daksh Jyotish Vigyan</span>. All rights reserved.
+            © 2025 <span className="text-[#f8d57e]">Daksh Jyotish Vigyan</span>. All rights reserved.<br />  Produly Made By <a href="https://www.bimfrox.com/" className="text-green-800">Bimfrox</a>
           </p>
           <div className="flex space-x-5 text-lg">
             <a href="#" className="hover:text-[#ffcc80] transition-all">
